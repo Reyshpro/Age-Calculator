@@ -1,0 +1,31 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;          
+  margin: 0;  
+  background-color: beige; 
+}
+#cal-btn{
+  margin-top: 10px;
+  width: 208px;
+  height: 30px;
+  border: none;
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+}
+#cal-btn:hover{
+cursor: pointer;
+opacity: 0.8;
+}
+#cal-btn:active{
+  opacity: 0.6;
+}
+#myDate{
+  width: 200px;
+  height: 30px;
+  padding-left: 5px;
+}
